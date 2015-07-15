@@ -62,6 +62,88 @@
         ]
       </code></pre>
     </p>
+    <h3>Shark Data</h3>
+    <p>A huge extract of shark data from the http://www.ocearch.org/ this dataset is ideal for plotting shark locations and tracing their journeys.  It's huge file, not practical for online use, so consider hosting on MongoDB for rapid querying and access.</p>
+
+    <p>
+      <pre class="default prettyprint prettyprinted"><code>
+      var sharkData = [
+      {
+         "id":27,
+         "name":"Redemption",
+         "tagIdNumber":"118862",
+         "species":"White Shark",
+         "gender":"Male",
+         "stageOfLife":"Immature",
+         "length":"10ft 6in (3.2 meters)",
+         "weight":"826 lbs.",
+         "tagDate":"8 May 2012 12:00:00 AM +0900",
+         "tagLocation":"Gansbaai",
+         "description":"Chris Fischer named Redemption after their expedition was briefly shut down by the South African government due to a shark attack",
+         "pings":[
+            {
+               "active":"1",
+               "id":"9644",
+               "datetime":"26 August 2012 12:48:22 PM",
+               "tz_datetime":"26 August 2012 12:48:22 PM +0900",
+               "latitude":"-34.64691",
+               "longitude":"19.402589999999975"
+            },
+            {
+               "active":"1",
+               "id":"9645",
+               "datetime":"26 August 2012 12:27:30 AM",
+               "tz_datetime":"26 August 2012 12:27:30 AM +0900",
+               "latitude":"-34.54471",
+               "longitude":"19.351069999999993"
+            },
+         
+            {
+               "active":"1",
+               "id":"5305",
+               "datetime":"9 May 2012 11:59:13 AM",
+               "tz_datetime":"9 May 2012 11:59:13 AM +0900",
+               "latitude":"-34.82263",
+               "longitude":"20.12452999999999"
+            },
+            {
+               "active":"1",
+               "id":"5306",
+               "datetime":"9 May 2012 12:01:18 AM",
+               "tz_datetime":"9 May 2012 12:01:18 AM +0900",
+               "latitude":"-34.82261",
+               "longitude":"20.12454000000002"
+            },
+            ...
+         ],
+         "images":[
+        
+         ],
+         "videos":[
+
+         ],
+         "isMobile":false,
+         "platform":null,
+         "dist_24_hours":"0.000",
+         "dist_72_hours":"0.000",
+         "dist_total":"449.155",
+         "is_alive":"1",
+         "active":"1",
+         "last_updated":"1396607403",
+         "cnt_inactive_pings":"0",
+         "zping":"4 April 2014 10:12:54 AM +0900",
+         "profile_url":"http:\/\/www.ocearch.org\/profile\/redemption\/",
+         "pingCriteria":{
+            "interval":"30 year"
+         },
+         "latestPing":1396573974,
+         "pingAge":"sharkmore30"
+      },
+      ...
+      ]
+      </code>
+      </pre>
+    </p>
 
     <h2>Images</h2>
     <h3>Flags of the World</h3>
@@ -75,6 +157,21 @@
         <figure>
           <img src="./images/flags/Argentine.png">
           <figcaption>Argentine.png</figcaption>
+        </figure>
+        ...
+      </pre>
+    </p>
+    <h3>Weather Icons</h3>
+    <p>Large selection of transparent PNG files to cover most weather conditions.</p>
+    <p>
+      <pre class="default prettyprint prettyprinted">
+        <figure>
+          <img style="background-color: grey;" src="./images/weathericons/0.png">
+          <figcaption>0.png</figcaption>
+        </figure>
+        <figure>
+          <img style="background-color: grey;" src="./images/weathericons/1.png">
+          <figcaption>1.png</figcaption>
         </figure>
         ...
       </pre>
